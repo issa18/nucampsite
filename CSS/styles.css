@@ -7,8 +7,13 @@ h1, h2, h3 {
 h2 {
   color: #3046C5; }
 
-header h2 {
-  color: #CEC8FF; }
+header {
+  /* can nest more element that are inside the header element, shown below another rule. 
+    p{
+
+    }*/ }
+  header h2 {
+    color: #CEC8FF; }
 
 .site-footer {
   background-image: linear-gradient(#CEC8FF, white);
